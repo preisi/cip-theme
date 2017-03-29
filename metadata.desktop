@@ -1,16 +1,15 @@
 [SddmGreeterTheme]
-Name=Maldives
-Description=Maldives Theme
-Author=Abdurrahman AVCI
-Copyright=(c) 2013, Abdurrahman AVCI
+Name=CIP-Theme
+Description=CIP-Theme
+Author=Thomas Preisner and Milan Stephan
+Copyright=(c) 2013, Abdurrahman AVCI, (c) 2017, Thomas Preisner, (c) 2017, Milan Stephan
 License=CC-BY-SA
 Type=sddm-theme
 Version=0.1
-Website=https://github.com/sddm/sddm
-Screenshot=maldives.jpg
+Website=https://github.com/preisi/cip-theme
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=abdurrahmanavci@gmail.com
-Theme-Id=maldives
+Email=thomas.preisner@fau.de
+Theme-Id=cip-theme
 Theme-API=${COMPONENTS_VERSION}
