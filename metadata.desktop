@@ -10,6 +10,6 @@ Website=https://github.com/preisi/cip-theme
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=thomas.preisner@fau.de
+Email=thomas.preisner@fau.de, milan.stephan@fau.de
 Theme-Id=cip-theme
 Theme-API=${COMPONENTS_VERSION}
