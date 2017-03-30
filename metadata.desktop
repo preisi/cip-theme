@@ -15,3 +15,4 @@ Theme-Id=cip-theme
 Theme-API=${COMPONENTS_VERSION}
 FormResetSupport=true
 IgnoreUsermodel=true
+AdminInfoSupport=true
