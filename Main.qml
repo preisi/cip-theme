@@ -51,6 +51,14 @@ Rectangle {
             errorMessage.text = textConstants.loginFailed
         }
 
+        onFormReset: {
+            name.text = ""
+            password.text = ""
+            session.index = sessionModel.lastIndex
+            errorMessage.text = ""
+            name.focus = true
+        }
+
         onAdminInfoChanged: {
             adminInfo.text = text
             if (text == "") {
