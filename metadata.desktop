@@ -13,3 +13,4 @@ TranslationsDirectory=translations
 Email=thomas.preisner@fau.de, milan.stephan@fau.de
 Theme-Id=cip-theme
 Theme-API=${COMPONENTS_VERSION}
+FormResetSupport=true
