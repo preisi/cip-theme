@@ -58,6 +58,16 @@ Rectangle {
             errorMessage.text = ""
             name.focus = true
         }
+
+        onAdminInfoChanged: {
+            adminInfo.text = text
+            if (text == "") {
+                adminInfoContainer.visible = false
+            }
+            else {
+                adminInfoContainer.visible = true
+            }
+        }
     }
 
     Background {
@@ -83,6 +93,22 @@ Rectangle {
 
             color: "white"
             timeFont.family: "Oxygen"
+        }
+
+        Image {
+            id: adminInfoContainer
+            anchors.margins: 40
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.top: parent.top
+            anchors.bottom: rectangle.top
+            visible: false
+
+            source: "rectangle.png"
+
+            AdminInfo {
+                id: adminInfo
+            }
         }
 
         Image {
