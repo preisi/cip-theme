@@ -98,7 +98,7 @@ Rectangle {
 
             source: "rectangle.png"
 
-            AdminInfo {
+            Text {
                 id: adminInfo
             }
         }
